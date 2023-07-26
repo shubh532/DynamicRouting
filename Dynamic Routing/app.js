@@ -25,8 +25,7 @@ app.use(shopRoutes);
 app.use(errorController.get404);
 
 sequelize.sync()
-    .then(result => {
-        console.log(result)
+    .then(() => {
         app.listen(3000, () => {
             console.log("please click on this with ctrl+left click http://localhost:3000")
         })
