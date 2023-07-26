@@ -9,9 +9,11 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
-.centered{
+
+.centered {
   text-align: center;
 }
+
 main {
   padding: 1rem;
   margin: auto;
@@ -203,4 +205,19 @@ form {
   #side-menu-toggle {
     display: none;
   }
+}
+
+.cart__item-list {
+  box-shadow: 0px 0px 5px 0.5px;
+  border-radius: 12px;
+  padding: 0px 20px;
+  list-style: none;
+  width:40rem;
+  margin: auto;
+}
+.cart__item{
+display:flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px;
 }
